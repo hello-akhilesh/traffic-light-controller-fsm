@@ -89,7 +89,7 @@ The design includes:
 
 - GTKWave
 
-
+---
 
 📌 Author
 
