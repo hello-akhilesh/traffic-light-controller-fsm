@@ -1,4 +1,4 @@
-🚦 Traffic Light Controller using Moore FSM (Verilog)
+# 🚦 Traffic Light Controller using Moore FSM (Verilog)
 
 📌 Project Overview
 
