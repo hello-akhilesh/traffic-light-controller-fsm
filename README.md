@@ -89,12 +89,3 @@ The design includes:
 
 - GTKWave
 
----
-
-📌 Author
-
-Akhilesh Yadav
-
-B.Tech, ECE
-
-FSM | Verilog | Digital Design
