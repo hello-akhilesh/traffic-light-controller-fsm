@@ -71,7 +71,7 @@ The design includes:
 
 ---
 
-🧪 Simulation & Verification
+🧪 Simulation & Verification    
 ▶️ Compile and Simulate (Using Icarus Verilog):
  - iverilog -g2012 traffic_light.v tb_traffic_light.v
  - vvp a.out
