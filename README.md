@@ -15,7 +15,7 @@ The design includes:
 
 - Waveform-based verification using GTKWave
 ---
-🧠 FSM Description
+🧠 FSM Description    
 🔹 FSM Type
 
 - Moore FSM
