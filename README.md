@@ -1,6 +1,6 @@
 # 🚦 Traffic Light Controller using Moore FSM (Verilog)
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project implements a Traffic Light Controller using a Moore Finite State Machine (FSM) in Verilog HDL.
 The controller simulates a real-world traffic signal with RED → GREEN → YELLOW → RED sequencing and fixed timing for each light.
@@ -14,8 +14,8 @@ The design includes:
 - Verilog testbench
 
 - Waveform-based verification using GTKWave
----
-🧠 FSM Description    
+  
+## 🧠 FSM Description    
 🔹 FSM Type
 
 - Moore FSM
@@ -30,7 +30,7 @@ The design includes:
 - S1	GREEN	8 seconds
 - S2	YELLOW	4 seconds
 
-⏱️ Timing Details
+## ⏱️ Timing Details
 
 - Clock Frequency: 1 Hz (simulated)
 
@@ -39,8 +39,8 @@ The design includes:
 - Internal counter tracks time spent in each state
 
 - State transition occurs once the required count is reached
----
-📁 Traffic_Light_Controller_FSM/     
+
+## 📁 Traffic_Light_Controller_FSM/     
 │                 
 ├── traffic_light.v       
 ├── tb_traffic_light.v  
@@ -48,8 +48,8 @@ The design includes:
 ├── state_diagram.png    
 └── README.md             
 
----
-🧾 Verilog Design Files
+
+## 🧾 Verilog Design Files
  
 📄 traffic_light.v
  Implements the FSM with:
@@ -69,9 +69,9 @@ The design includes:
 
 - Runs simulation long enough to observe multiple cycles
 
----
 
-🧪 Simulation & Verification    
+
+## 🧪 Simulation & Verification    
 ▶️ Compile and Simulate (Using Icarus Verilog):
  - iverilog -g2012 traffic_light.v tb_traffic_light.v
  - vvp a.out
@@ -80,12 +80,12 @@ The design includes:
  This generates the waveform file:
 
  - traffic_light.vcd
----
-🛠 Tools Used
+
+## 🛠 Tools Used
 
 - Verilog HDL
 
 - Icarus Verilog (iverilog)
 
 - GTKWave
-
+---
